@@ -11,7 +11,7 @@ func Links() (string, error) {
 	var builder strings.Builder
 
 	// Open the file
-	file, err := os.Open("2_links.txt")
+	file, err := os.Open("2_link.txt")
 	if err != nil {
 		return "", fmt.Errorf("error opening file: %w", err)
 	}

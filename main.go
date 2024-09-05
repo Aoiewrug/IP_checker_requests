@@ -17,7 +17,6 @@ const ThreadLimit = 50
 func main() {
 	start := time.Now()
 
-	// Initialize the config
 	// Credentials are here!
 	models.InitializeConfig()
 
