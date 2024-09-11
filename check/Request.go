@@ -27,7 +27,7 @@ func RequestChecker(info models.ProxyChanStruct) {
 	}
 	client := &http.Client{
 		Transport: tr,
-		Timeout:   15 * time.Second,
+		Timeout:   10 * time.Second,
 	}
 	resp, err := client.Get(info.Link)
 	if err != nil {

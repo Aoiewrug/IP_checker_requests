@@ -24,7 +24,7 @@ func InitializeConfig() {
 
 		Config = ProxyChanStruct{
 			Port:  "5432",
-			Creds: "ikolomeytsev:q0kkb04j",
+			Creds: "yyy:xxx",
 			Link:  link,
 		}
 
